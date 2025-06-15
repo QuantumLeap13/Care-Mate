@@ -86,3 +86,11 @@ CareMate/
 ## 👤 Author
 Abhidhek Singh Jadoun
 B.Tech | Information Technology
+
+
+## 💡 Future Plans
+🧠 AI-based health suggestions
+
+🌐 Multilingual support
+
+🧾 PDF health report exports
