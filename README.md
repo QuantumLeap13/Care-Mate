@@ -35,6 +35,14 @@
    ```bash
    git clone https://github.com/QuantumLeap13/Care-Mate.git
 
+2. Open it in Android Studio.
+
+3. Add your google-services.json file for Firebase integration.
+
+4. Run the project on an emulator or physical device.
+
+## 📦 Folder Structure (Simplified)
+
  ```bash
 CareMate/
 ├── app/
