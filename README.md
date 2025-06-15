@@ -16,9 +16,7 @@
 
 ## 📱 Screenshots
 
-<!-- Add image links or drag & drop screenshots here -->
-> _Click [here](#) to view the UI/UX screenshots._
-
+> _Click [here](https://drive.google.com/file/d/1UIY3wMGihEq5bIPnhKegy3uvcwVsMgJZ/view?usp=sharing) to view the UI/UX screenshots._
 ---
 
 ## 🛠️ Tech Stack
@@ -37,7 +35,7 @@
    ```bash
    git clone https://github.com/QuantumLeap13/Care-Mate.git
 
-
+ ```bash
 CareMate/
 ├── app/
 │   ├── java/com/abhi/caremate/
