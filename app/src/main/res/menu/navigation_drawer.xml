@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/navigation_health_resources"
+        android:title="Health Tools"
+        android:icon="@drawable/img_2"/>
+
+
+
+    <item android:id="@+id/navigation_website"
+        android:title="Care Website"
+        android:icon="@drawable/img_4"/>
+
+    <item android:id="@+id/navigation_share"
+        android:title="Share App"
+        android:icon="@drawable/img_5"/>
+    <item android:id="@+id/logout"
+        android:title="Logout"
+        android:icon="@drawable/img_6"/>
+
+
+</menu>

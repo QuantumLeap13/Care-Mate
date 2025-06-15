@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CareMate"
+        tools:targetApi="31">
+        <activity
+            android:name=".TipPost"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".healthtips"
+            android:exported="false" />
+        <activity
+            android:name=".HealthTipAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".forgetpassword"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".consultADD"
+            android:exported="false" />
+        <activity
+            android:name=".consult"
+            android:exported="false" />
+        <activity
+            android:name=".BookAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".appointments"
+            android:exported="false" />
+        <activity
+            android:name=".Adminlogin"
+            android:exported="false" />
+        <activity
+            android:name=".Admin"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/navigation_dashboard"
+        android:title="Dashboard"
+        android:icon="@drawable/home" />
+
+    <item android:id="@+id/navigation_appointments"
+        android:title="Appointments"
+        android:icon="@drawable/ic_calendar" />
+
+    <item android:id="@+id/navigation_consult"
+        android:title="Consult"
+        android:icon="@drawable/img_1" />
+
+    <item android:id="@+id/navigation_healthtips"
+        android:title="Health Tips"
+        android:icon="@drawable/img_2" />
+
+    <item android:id="@+id/navigation_profile"
+        android:title="Profile"
+        android:icon="@drawable/img_7" />
+
+</menu>

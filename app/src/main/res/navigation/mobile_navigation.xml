@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/dashboard">
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.abhi.caremate.profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/dashboard"
+        android:name="com.abhi.caremate.dashboard"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_dashboard_to_appointments"
+            app:destination="@id/appointments" />
+    </fragment>
+    <fragment
+        android:id="@+id/appointments"
+        android:name="com.abhi.caremate.appointments"
+        android:label="fragment_appointments"
+        tools:layout="@layout/fragment_appointments" >
+        <action
+            android:id="@+id/action_appointments_to_consult"
+            app:destination="@id/consult" />
+    </fragment>
+    <fragment
+        android:id="@+id/consult"
+        android:name="com.abhi.caremate.consult"
+        android:label="fragment_consult"
+        tools:layout="@layout/fragment_consult" >
+        <action
+            android:id="@+id/action_consult_to_healthtips"
+            app:destination="@id/healthtips" />
+    </fragment>
+    <fragment
+        android:id="@+id/healthtips"
+        android:name="com.abhi.caremate.healthtips"
+        android:label="fragment_healthtips"
+        tools:layout="@layout/fragment_healthtips" >
+        <action
+            android:id="@+id/action_healthtips_to_profile"
+            app:destination="@id/profile" />
+    </fragment>
+</navigation>

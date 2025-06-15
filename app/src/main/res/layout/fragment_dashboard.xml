@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dashboardScroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Greeting -->
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to CareMate!"
+            android:textSize="24sp"
+            android:textColor="#212121"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Book Appointment -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardBookAppointment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_calendar"
+                    app:tint="#2196F3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Book Appointment"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:layout_marginStart="16dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Horizontal Feature Cards -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quick Access"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginBottom="8dp" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingEnd="8dp">
+
+                <!-- Consult -->
+
+                <!-- Health Tools -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardHealthTools"
+                    android:layout_width="120dp"
+                    android:layout_height="140dp"
+                    android:layout_marginEnd="8dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="4dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:id="@+id/tool"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:padding="8dp">
+
+                        <ImageView
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:src="@drawable/img_2"
+                            app:tint="#673AB7" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Health Tools"
+                            android:textColor="#000"
+                            android:textSize="16sp"
+                            android:layout_marginTop="8dp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- Share App -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardShareApp"
+                    android:layout_width="120dp"
+                    android:layout_height="140dp"
+                    android:layout_marginEnd="8dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="4dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:id="@+id/share"
+                        android:gravity="center"
+                        android:padding="8dp">
+
+                        <ImageView
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:src="@drawable/img_5"
+                            app:tint="#FF5722" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Share App"
+                            android:textColor="#000"
+                            android:textSize="16sp"
+                            android:layout_marginTop="8dp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- Care Website -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardWebsite"
+                    android:layout_width="120dp"
+                    android:layout_height="140dp"
+                    android:layout_marginEnd="8dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="4dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:id="@+id/web"
+                        android:padding="8dp">
+
+                        <ImageView
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:src="@drawable/img_4"
+                            app:tint="#03A9F4" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Website"
+                            android:textColor="#000"
+                            android:textSize="16sp"
+                            android:layout_marginTop="8dp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <!-- Health Tips -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Health Tips"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvHealthTip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Drink 8 glasses of water daily."
+            android:textColor="#444"
+            android:padding="12dp"
+            android:background="#EEEEEE"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Upcoming Appointments -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upcoming Appointments"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:id="@+id/appointmentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#EEEEEE"
+            android:padding="12dp"
+            android:layout_marginBottom="24dp" />
+
+
+
+    </LinearLayout>
+</ScrollView>
