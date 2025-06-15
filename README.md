@@ -74,6 +74,6 @@ CareMate/
 ├── build.gradle (Project & Module level)
 └── Gradle Scripts/
 
-👤 Author
+## 👤 Author
 Abhidhek Singh Jadoun
 B.Tech | Information Technology
