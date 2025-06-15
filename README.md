@@ -38,7 +38,42 @@
  ```bash
 CareMate/
 ├── app/
-│   ├── java/com/abhi/caremate/
-│   └── res/
-├── build.gradle
-└── AndroidManifest.xml
+│ ├── manifests/
+│ │ └── AndroidManifest.xml
+│ ├── java/
+│ │ └── com/abhi/caremate/
+│ │ ├── Admin.java
+│ │ ├── Adminlogin.java
+│ │ ├── AppointmentModel.java
+│ │ ├── appointments.java
+│ │ ├── BookAppointmentActivity.java
+│ │ ├── consult.java
+│ │ ├── consultADD.java
+│ │ ├── dashboard.java
+│ │ ├── Doctor.java
+│ │ ├── DoctorAdapter.java
+│ │ ├── DoctorModel.java
+│ │ ├── EditProfileActivity.java
+│ │ ├── forgetpassword.java
+│ │ ├── HealthTipAdapter.java
+│ │ ├── HealthTipModel.java
+│ │ ├── healthtips.java
+│ │ ├── LoginActivity.java
+│ │ ├── MainActivity.java
+│ │ ├── profile.java
+│ │ ├── RegisterActivity.java
+│ │ └── TipPost.java
+│ └── res/
+│ ├── drawable/
+│ ├── layout/
+│ ├── menu/
+│ ├── mipmap/
+│ ├── navigation/
+│ ├── values/
+│ └── xml/
+├── build.gradle (Project & Module level)
+└── Gradle Scripts/
+
+👤 Author
+Abhidhek Singh Jadoun
+B.Tech | Information Technology
